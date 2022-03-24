@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://stepik.org/media/attachments/lesson/374893/world.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}   
+main{
+    width: 600px;
+    margin: 20px auto;
+    height: 100vw;
+
+}
+header{
+    text-align: center;
+    color: rgb(88, 85, 85);
+}
+section{
+    display: flex;
+    flex-basis: 700px;
+    flex-wrap: wrap
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+section > div{
+    background-color: rgb(242, 227, 227);
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 126, 5);
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    border-radius: 10px;
+}
