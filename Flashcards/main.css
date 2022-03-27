@@ -7,7 +7,7 @@ body{
     background-image: url('https://stepik.org/media/attachments/lesson/374893/world.png');
     background-size: contain;
     background-repeat: no-repeat;
-
+    overflow: hidden;
 }   
 main{
     width: 600px;
@@ -18,7 +18,9 @@ main{
 header{
     text-align: center;
     color: rgb(88, 85, 85);
+    font-family: 'Poppins';
 }
+
 section{
     display: flex;
     flex-basis: 700px;
