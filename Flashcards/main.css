@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
 main{
     width: 650px;
     margin: 20px auto;
@@ -21,19 +21,16 @@ main{
 header{
     text-align: center;
     color: rgb(88, 85, 85);
-    font-family: 'Poppins';
+    font-family: 'Poppins',cursive;
 }
 
 .container{
     display: flex;
-    /* flex-basis: 100; */
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 .card{
     height: 180px;
-    width: 200px;
+    width: 180px;
     margin: 5px;
     position: relative;
     transition: all 1s linear;
