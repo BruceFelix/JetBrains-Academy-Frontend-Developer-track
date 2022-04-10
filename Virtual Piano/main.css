@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(18, 14, 14);
+}
+.container{
+    margin: 200px auto;
+    width: 30%;
+}
+.container kbd{
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: 0; 
+}
